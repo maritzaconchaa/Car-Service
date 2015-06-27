@@ -1,0 +1,146 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-color: #f7f7f7;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:50px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.neighborhood-guides{
+    background-color:#efefef;
+    border-bottom: 2px solid #db0bdb;
+    
+}
+.neighborhood-guides h2{
+    color:#393c3d;
+    font-size:24px;
+}
+.neighborhood-guides p{
+    font-size:15px;
+    margin-bottom:13px;
+}
+/*  This div class is the container for our menu.
+    It defines attributes for everything inside. */
+div.tabbed-menu {
+    font-family: "Helvetica";
+    font-size: 15px;
+    float: right;
+    /*background-color: blue;*/
+    width: 287px;
+    height: 281px;
+}
+div.form{
+  width: 227px;
+  height: 252px;
+}
+div.content{
+  padding: 12px;
+  width: auto;
+}
+/*  This ul class defines how your menu options
+    will be arranged and also gives us a nice 
+    dividing line between the menu and the content. */
+ul#tabs {
+    text-align: center;
+    list-style: none;
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+    color: #0088CC;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/*  This defines the look of the individual tabs of 
+    your menu when they are contained in a tabs class ul */
+ul#tabs li {
+    margin-bottom: -1px;
+    padding: 3px 10px 0 10px;
+    border: 1px solid #DDDDDD;
+    background: #EFEFEF;
+    
+    /*  inline-block tells the browser to arrange the list
+        elements in a line rather than each element on its
+        own line. */
+    display: inline-block;
+    
+    /* The attributes here round the top left
+        and right corners of the tabs. */
+    border-top-left-radius: 6px; 
+    border-top-right-radius: 6px;
+    
+}
+/* This defines what a tab should look like when selected */
+ul#tabs li.selected {
+    background: #FFF;
+    border-bottom-color: transparent;
+    
+}
+ul{
+
+}
+
+/* This defines how a tab looks when your mouse hovers above it */
+ul#tabs li:hover {
+  color: #333333;
+  cursor: pointer;
+  background: #FFFFFF;
+}
+
+ul#tab{
+  list-style-type: none;
+}
+
+ul#tab li{
+  display: none;
+}
+ul#tab li.selected{
+  display:block;
+}
+ 
+.division { 
+    border-bottom: 2px solid #db0bdb;
+}

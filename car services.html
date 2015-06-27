@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/jquery-ui.css">
+    <link rel="stylesheet" href="CSS/main_service.css">
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Book</a></li>
+          <li><a href="#">Find Services</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Looking for a car service.</h1>
+        <p>we have over 100 services to offer.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+
+    <div class="division">
+    </div>
+    <div class="neighborhood-guides">
+        <div class="container">
+            <h2>Guides</h2>
+            <p>Not sure where to ask? We've created a guides with different services we offered.</p>
+            <div class="row">
+	            <div class="col-md-4">
+	                <div class="thumbnail">
+	                    <img src="images/car 1.jpg">
+	                </div>
+	                <div class="thumbnail">
+	                    <img src="images/car 2.jpg">
+	                </div>
+	            </div>
+	            <div class="col-md-4">
+	                <div class="thumbnail">
+	                    <img src="images/tyres.jpg">
+	                </div>
+	                <div class="thumbnail">
+	                    <img src="images/crush.jpg">
+	                </div>
+	            </div>
+	            <div class="col-md-4">
+	                <!--<div class="thumbnail">
+	                    <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTfPkZ83ZQppyk9-S3Hob3iglplWWiKqLMreKyuVu3lPRV39svK">
+	                </div>-->
+
+
+	                <!--To create a tabbed-menu you need to have to list one the header and the other the content
+	            		the id with the href a needs to be the same of the id of the second content-->
+	                <div class="tabbed-menu">
+	                	<ul id="tabs">
+          					<li class="selected" id="bycar"><a href="#FormCar">by Car</a></li>
+          					<li id="byservice"><a href="#FormService">by Service</a></li>
+         				</ul>
+
+     					<div id="FormCar">
+	     					<div class="content">
+	         					<div id="tab">
+	         						<h3>Find Vehicle</h3>
+	         					</div>
+		         				 <form action="/" method="GET" >
+		                        	<ul id="tab">
+		                            	<li class="selected">
+		                                	<select class="styled" id="Make" name="Make" title="Make"><option value="">Make</option>
+											<option value="-">-</option>
+											</select>
+			                            </li>
+			                            <li>
+			                                <select id="Year" name="Year" class="styled" disabled="disabled" title="Year">
+			                                    <option>Year</option>
+			                                </select>
+			                            </li>
+			                            <li>
+			                                <select id="Model" name="Model" class="styled" disabled="disabled" title="Model">
+			                                    <option>Model</option>
+			                                </select>
+			                            </li>
+			                            <li>
+			                                <select id="Vehicle" name="Vehicle" class="styled" disabled="disabled" title="Vehicle">
+			                                    <option>Vehicle</option>
+			                                </select>
+			                            </li>
+			                            <li>
+			                                <input type="submit" id="btnSearchBy" class="hidden" value="&nbsp;" />
+			                            </li>
+		                        	</ul>
+		                    	</form>
+		                	</div>
+		                </div>
+		                <div id="FormService">
+		                	<div class="content">
+		                		<div id="byservice">
+		                			<h3>Find Service</h3>
+		                		</div>
+		                		 <form action="/" method="GET" >
+		                        	<ul id="tab">
+		                            	<li id="byservice">
+		                                	<select class="styled" id="Make" name="Make" title="Make"><option value="">Make</option>
+											<option value="-">-</option>
+											</select>
+			                            </li>
+			                    	</ul>
+
+		                	</div>
+		                </div>
+		            </div>
+	            </div>
+		    </div>
+        </div>
+    </div>
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3>Service</h3>
+			<p>From changing oil to a complete proffessional service.</p>
+			<p><a href="#">Ask for a quotation</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Booking</h3>
+			<p>you can create you own appointment for your service.</p>
+			<p><a href="#">Learn more about how to make an appointment</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Contact Us</h3>
+			<p>Learn more about us and find a google map.</p>
+			<p><a href="#">Learn about find this place</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
